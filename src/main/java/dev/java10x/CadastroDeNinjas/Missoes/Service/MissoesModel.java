@@ -21,7 +21,7 @@ public class MissoesModel {
     private char rankDaMissao;
 
     //Uma missão pode ter vários ninjas
-    @OneToMany(mappedBy = "missões")
+    @OneToMany(mappedBy = "missoes")
     private List<NinjaModel> ninjas;
 
 
